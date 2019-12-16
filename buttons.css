@@ -1,0 +1,50 @@
+   a {
+     text-decoration: none;
+     color: black;
+   }
+   
+   a:hover {
+     color: inherit;
+   }
+   
+   .btn-underline {
+      font-family: 'Anonymous Pro', monospace;
+      background-color: transparent;
+      margin: 10px;
+      border: none;
+      color: black;
+      font-size: 20%;
+      padding: 5px;
+    }
+    
+    .btn-pink {
+      border-left: 3px solid #ff7570;
+    }
+    
+    .btn-blue {
+      border-left: 3px solid #00bfff;
+    }
+    
+    .btn-yellow {
+      border-left: 3px solid #ffd000;
+    }
+    
+    .btn-green {
+      border-left: 3px solid #55ff00;
+    }
+    
+    .btn-pink:hover {
+      color: #ff7570;
+    }
+    
+    .btn-blue:hover {
+      color: #00bfff;
+    }
+    
+    .btn-yellow:hover {
+      color: #ffd000;
+    }
+    
+    .btn-green:hover {
+      color: #55ff00;
+    }
