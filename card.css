@@ -20,7 +20,7 @@
   /* Add shadows to create the "card" effect */
   transition: 0.3s;
   margin: 10px;
-  width: 45%;
+  width: 50%;
   height: 150px;
   line-height: 100px;
   margin-left: 0px;
@@ -41,6 +41,12 @@
 .code-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   background-color: #404040;
+}
+
+.last-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  background-color: #013828;
+  width: 100%;
 }
 
 .code-card:hover {
