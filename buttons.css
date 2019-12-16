@@ -33,6 +33,10 @@
       border-left: 3px solid #55ff00;
     }
     
+    .btn-orange {
+      border-left: 3px solid #fc7303;
+    }
+    
     .btn-pink:hover {
       color: #ff7570;
     }
@@ -47,4 +51,8 @@
     
     .btn-green:hover {
       color: #55ff00;
+    }
+    
+    .btn-orange:hover {
+      color: #fc7303;
     }

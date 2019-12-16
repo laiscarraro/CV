@@ -7,6 +7,7 @@
   <link href = "timeline.css" rel = "stylesheet">
   <link href = "buttons.css" rel = "stylesheet">
   <link rel = "stylesheet" href = "portions.css">
+  <link rel = "stylesheet" href = "card.css">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   
@@ -55,9 +56,10 @@
     <div class = "item">
       <div class = "line-1 menu">
         <button class = "btn-underline btn-pink" id = "educacao"><a href="#section1">Educação</a></button>
-        <button class = "btn-underline btn-yellow" id = "musica">Música</button>
-        <button class = "btn-underline btn-blue" id = "extensao">Extensão</button>
-        <button class = "btn-underline btn-green" id = "hobbies">Hobbies</button>
+        <button class = "btn-underline btn-blue" id = "programacao"><a href="#section1">Programação</a></button>
+        <button class = "btn-underline btn-green" id = "musica"><a href="#section1">Música</a></button>
+        <button class = "btn-underline btn-yellow" id = "projetos"><a href="#section1">Projetos</a></button>
+        <button class = "btn-underline btn-orange" id = "hobbies"><a href="#section1">Hobbies</a></button>
       </div>
     </div>
     
@@ -76,8 +78,12 @@
       $('#content').load('musica.html');
     })
     
-    $('#extensao').hover(function() {
-      $('#content').load('extensao.html');
+    $('#programacao').hover(function() {
+      $('#content').load('programacao.html');
+    })
+    
+    $('#projetos').hover(function() {
+      $('#content').load('projetos.html');
     })
     
     $('#hobbies').hover(function() {

@@ -1,0 +1,49 @@
+.deck {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  text-align: center;
+  font-size: 125%;
+  color: white;
+}
+
+   a {
+     text-decoration: none;
+     color: inherit;
+   }
+   
+   a:hover {
+     color: inherit;
+   }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  transition: 0.3s;
+  margin: 10px;
+  width: 45%;
+  height: 150px;
+  line-height: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Add some padding inside the card container */
+.cardContainer {
+  padding: 2px 16px;
+  font-size: 10%;
+}
+
+.lang-card {
+  background-color: #d6d6d6;
+  color: #013828;
+}
+
+.code-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  background-color: #404040;
+}
+
+.code-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #013828;
+}
