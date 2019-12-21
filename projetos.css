@@ -1,0 +1,111 @@
+.projeto {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.border-image img {
+  width: 340px;
+  height: auto;
+  border: 0;
+  margin: 10px;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+.title {
+  font-size: 25%;
+}
+
+.text {
+  font-size: 15%;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.text-btn {
+  color: #a8a8a8;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  border-bottom: 3px dotted #a8a8a8;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.pet:hover {
+  color: #cf0000;
+  border-bottom: 3px dotted #cf0000;
+}
+
+.ssi:hover {
+  color: #6c008c;
+  border-bottom: 3px dotted #6c008c;
+}
+
+.dasi:hover {
+  color: #6c008c;
+  border-bottom: 3px dotted #6c008c;
+}
+
+.sheHacks:hover {
+  color: #c003ff;
+  border-bottom: 3px dotted #c003ff;
+}
+
+.grace:hover {
+  color: #ff7570;
+  border-bottom: 3px dotted #ff7570;
+}
+
+.competec:hover {
+  color: #00bfff;
+  border-bottom: 3px dotted #00bfff;
+}
+
+.bxcomp:hover {
+  color: #ffd000;
+  border-bottom: 3px dotted #ffd000;
+}
+
+.pet-title {
+  color: #cf0000;
+  text-align: left;
+}
+
+.ssi-title {
+  color: #6c008c;
+  text-align: left;
+}
+
+.dasi-title {
+  color: #6c008c;
+  text-align: left;
+}
+
+.sheHacks-title {
+  color: #c003ff;
+  text-align: left;
+}
+
+.grace-title {
+  color: #ff7570;
+  text-align: left;
+}
+
+.competec-title {
+  color: #00bfff;
+  text-align: left;
+}
+
+.bxcomp-title {
+  color: #ffd000;
+  text-align: left;
+}
