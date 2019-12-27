@@ -7,7 +7,10 @@
   width: 340px;
   height: auto;
   border: 0;
-  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-left {
@@ -75,6 +78,16 @@
   border-bottom: 3px dotted #ffd000;
 }
 
+.ic:hover {
+  color: #55ff00;
+  border-bottom: 3px dotted #55ff00;
+}
+
+.hackathon:hover {
+  color: #fc7303;
+  border-bottom: 3px dotted #fc7303;
+}
+
 .pet-title {
   color: #cf0000;
   text-align: left;
@@ -107,5 +120,15 @@
 
 .bxcomp-title {
   color: #ffd000;
+  text-align: left;
+}
+
+.ic-title {
+  color: #55ff00;
+  text-align: left;
+}
+
+.hackathon-title {
+  color: #fc7303;
   text-align: left;
 }
